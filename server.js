@@ -4,7 +4,7 @@ const express = require("express");
 const app = express();
 const PORT = process.env.PORT;
 const studentRoute = require("./database/students.js");
-app.use(cors({origin : ["http://fecsdb.vercel.app"]}));
+app.use(cors({origin : ["https://fecsdb.vercel.app"]}));
 app.use(express.json());
 app.use(express.urlencoded());
 app.listen(PORT , () => {
