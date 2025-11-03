@@ -4,12 +4,11 @@
 ```
 FEC_Students_Database_Backend/
 ├── database/
-│   ├── server.js          # Express app entry point
 │   ├── students.js        # Students routes (/students)
 │   ├── database.js        # MySQL pool configuration
-│   ├── package.json       # Scripts and dependencies
-│   └── package-lock.json
-├── node_modules/
+├── package.json       # Scripts and dependencies
+└── package-lock.json
+├── server.js          # Express app entry point
 ├── LICENSE
 └── README.md
 ```
