@@ -12,7 +12,7 @@ app.listen(PORT , () => {
 })
 
 app.get("/" , (req ,res)=>{
-  res.send("<h1 style='position:absolute; top:50%; left:50%; transform:translate(-50% , -50%); font-size:4rem; text:center;'>Welcome To FEC Students Portal</h1>");
+  res.send("<h1 style='position:absolute; top:50%; left:50%; transform:translate(-50% , -50%); font-size:4rem; text-align:center;'>Welcome To FEC Students Portal</h1>");
 })
 
 app.use("/students" , studentRoute);
