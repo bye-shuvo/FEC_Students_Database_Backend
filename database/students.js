@@ -57,9 +57,7 @@ router.post("/create", (req, res) => {
         if (err)
           return res.status(500).json({
             message: "Error while executing the query in database.",
-            error: err.message,
-            column: placeholders,
-            values: values,
+            error: err.message
           });
 
         res
